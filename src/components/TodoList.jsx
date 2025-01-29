@@ -13,7 +13,7 @@ const TodoList = ({ todo = [], toggleTodo, deleteTodo }) => {
               <input
                 type="checkbox"
                 checked={item.completed}
-                onChange={() => toggleTodo(item.id)}
+                onChange={() => toggleTodo(item.id)} 
                 className="w-5 h-5 text-blue-500 rounded focus:ring-blue-500 border-gray-300"
               />
               <span className="text-gray-700">{item.text}</span>
